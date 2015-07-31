@@ -24,6 +24,9 @@ Value is what is displayed to click on and collection is where you continue to n
 If collection is empty, this tells the list that this is an available item for selection.
 
 ## Demo
+
+![example](/demo/example.png)
+
 Pull down the repo and run the index.html for a demo of the project
 
 ### TODO
