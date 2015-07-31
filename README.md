@@ -3,7 +3,7 @@ This is a custom directive that will expand tree data into a selectable list.  I
 This directive currently requires jQuery.
 
 ## Usage
-Add "list-selector" to your app module and add the styles.css to your styles.  Then include
+Add angular-expandable-list-selector.js and include "list-selector" in your app module dependencies.  Make sure to add the styles.css to your styles.  Then include
     
     <div class="expand-list" expand-list="data" selection="selected"></div>
 
