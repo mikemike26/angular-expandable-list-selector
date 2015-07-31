@@ -1,0 +1,59 @@
+.expand-list p {
+  margin: 0;
+}
+.expand-list ul, .expand-list li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.expand-list li {
+  margin-left: 5px; }
+.expand-list .product-section p {
+  -webkit-transition: 300ms ease all;
+  -moz-transition: 300ms ease all;
+  -o-transition: 300ms ease all;
+  transition: 300ms ease all;
+  font-weight: normal; }
+.expand-list .product-section p.selected-section {
+  -webkit-transition: 300ms ease all;
+  -moz-transition: 300ms ease all;
+  -o-transition: 300ms ease all;
+  transition: 300ms ease all;
+  font-weight: bold; }
+.expand-list .product-section p.select-product {
+  -webkit-transition: 300ms ease all;
+  -moz-transition: 300ms ease all;
+  -o-transition: 300ms ease all;
+  transition: 300ms ease all;
+  color: #008800; }
+.expand-list .recurse-wrapper {
+  -webkit-transition: 500ms ease all;
+  -moz-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  max-height: none; }
+.expand-list .recurse-wrapper.expand-this {
+  -webkit-transition: 500ms ease all;
+  -moz-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0; }
+.expand-list .recurse-wrapper.selected-section {
+  -webkit-transition: 500ms ease all;
+  -moz-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 11px;
+  padding-bottom: 11px; }
+.expand-list .recurse {
+  overflow: hidden; }
