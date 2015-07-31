@@ -27,7 +27,7 @@ If collection is empty, this tells the list that this is an available item for s
 
 <img src="/demo/example.png" width="390" height="209">
 
-Pull down the repo and run the index.html for a demo of the project
+http://mikemike26.github.io/angular-expandable-list-selector/
 
 ## Notes:
 
