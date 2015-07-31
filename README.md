@@ -25,9 +25,13 @@ If collection is empty, this tells the list that this is an available item for s
 
 ## Demo
 
-![example](/demo/example.png)
+<img src="/demo/example.png" style="width: 20em;">
 
 Pull down the repo and run the index.html for a demo of the project
+
+## Notes:
+
+The included css is just to animate the list, you will need to style it for your needs for production
 
 ### TODO
 1. hook into ngModel
