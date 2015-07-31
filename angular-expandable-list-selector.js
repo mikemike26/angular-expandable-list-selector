@@ -61,7 +61,7 @@ angular.module('list-selector').directive('expandListRecurse',['$compile', '$tim
       require: "^expandList",
       template: '<div class="product-section"><p ng-class="{\'selected-section\': showSelect, \'select-product\': selectThis}" ng-click="selectProduct(thisProduct)">{{thisProduct.value}}</p></div>',
       link: function (scope, element, attrs, ctrl) {
-        var selected = false, saveThis = false, thisCallback = function() {}, hasList = false, timer = function(){}, timer2=function(){};
+        var selected = false, saveThis = false, thisCallback = function() {}, hasList = false, timer, timer2;
         var removeList = function() {
               scope.expandBase = true;
               scope.showSelect = false;
@@ -183,8 +183,8 @@ angular.module('list-selector').directive('expandListRecurse',['$compile', '$tim
           }
         });
         scope.$on('$destroy', function() {
-          timer();
-          timer2();
+          $timeout.cancel(timer);
+          $timeout.cancel(timer2);
         });
       }
     }
