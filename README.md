@@ -1,6 +1,5 @@
 # angular-expandable-list-selector
-This is a custom directive that will expand tree data into a selectable list.  It will expand as long as there's data to display
-This directive currently requires jQuery.
+This is a custom directive that will expand tree data into a selectable list.  It will expand as long as there's data to display. This directive currently requires jQuery.
 
 ## Usage
 Add angular-expandable-list-selector.js and include "list-selector" in your app module dependencies.  Make sure to add the styles.css to your styles.  Then include
@@ -36,4 +35,5 @@ The included css is just to animate the list, you will need to style it for your
 ### TODO
 1. hook into ngModel
 2. remove jquery as a requirement
+3. output whole data object instead of just value
 
