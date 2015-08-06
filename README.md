@@ -33,7 +33,7 @@ http://mikemike26.github.io/angular-expandable-list-selector/
 The included css is just to animate the list, you will need to style it for your needs for production
 
 ### TODO
-1. hook into ngModel
+1. hook into ngModel and enable form validation behavior
 2. remove jquery as a requirement
 3. output whole data object instead of just value
 
