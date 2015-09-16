@@ -36,5 +36,5 @@ The included css is just to animate the list, you will need to style it for your
 1. hook into ngModel and enable form validation behavior
 2. remove jquery as a requirement
 3. output whole data object instead of just value
-4. Right now only nested tree data works with this, refactor to accept single level object lists with references
+4. Right now only nested tree data works with this, this is not very efficient at scale.  Refactor to accept single level object lists with references
 
